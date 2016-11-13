@@ -1,6 +1,6 @@
-# _Wildlife Tracker_
+# _My Resturaunts_
 
-#### _September, 30th, 2016_
+#### _Novemeber, 12th, 2016_
 
 #### By _**Yusuf Qedan**_
 
@@ -10,12 +10,7 @@ _This is an app to view resturaunts._
 
 ## Setup/Installation Requirements
 
-
-## Specifications
-
-* Behavior: 
-  * **Example input:** 
-  * **Example output:** 
+Coming soon!
 
 ## Known Bugs
 

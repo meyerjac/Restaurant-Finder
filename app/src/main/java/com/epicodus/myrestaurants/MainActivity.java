@@ -18,13 +18,13 @@ public class MainActivity extends AppCompatActivity {
         mLocationEditText = (EditText) findViewById(R.id.locationEditText);
         mFindRestaurantsButton = (Button) findViewById(R.id.findRestaurantsButton);
         mFindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String location = mLocationEditText.getText().toString();
-                Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
-                intent.putExtra("location", location);
-                startActivity(intent);
-            }
+                @Override
+                public void onClick(View v) {
+                    String location = mLocationEditText.getText().toString();
+                    Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
+                    intent.putExtra("location", location);
+                    startActivity(intent);
+                }
         });
     }
 }
