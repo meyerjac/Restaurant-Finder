@@ -31,6 +31,12 @@ public class Restaurant {
         this.mLatitude = latitude;
         this.mLongitude = longitude;
         this.mCategories = categories;
+        this.mImageUrl = this.getLargeImageUrl(imageUrl);
+    }
+
+    private String getLargeImageUrl(String imageUrl) {
+        String largeImageUrl = imageUrl.substring(0, imageUrl.length() - 6).concat("o.jpg");
+        return largeImageUrl;
     }
 
     public String getName() {
