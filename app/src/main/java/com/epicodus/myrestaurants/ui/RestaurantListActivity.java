@@ -29,7 +29,6 @@ public class RestaurantListActivity extends AppCompatActivity {
 //    private SharedPreferences mSharedPreferences;
 //    private String mRecentAddress;
 
-    @Bind(R.id.locationTextView) TextView mLocationTextView;
     @Bind(R.id.recyclerView) RecyclerView mRecyclerView;
     private RestaurantListAdapter mAdapter;
     public ArrayList<Restaurant> mRestaurants = new ArrayList<>();
@@ -43,7 +42,6 @@ public class RestaurantListActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
-        mLocationTextView.setText("Here are all the restaurants near: " + location);
         getRestaurants(location);
 
 //        mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
